@@ -79,7 +79,11 @@ If you turn on a smart scale or a fitness band in Settings → Devices:
   it. It does not connect to or pair with the scale.
 - **Fitness band:** Forge connects to the band to read its stored data and live heart rate, and
   sends it commands, for example setting its clock, starting or ending its workout mode, or making
-  it buzz with the text "Rest over" when a rest ends.
+  it buzz during a workout. Each buzz comes with a short text shown on the band: "Set 3 done" when
+  a set is logged, the seconds left (for example "5 s") in a rest's countdown, and "Rest over"
+  when a rest ends. Forge can also stay connected to the band in the background to sync it; you
+  can switch this off in Settings → Devices → Your band → Keep band connected. The data still goes
+  only to Forge on your iPhone.
 
 Forge talks to these devices directly over Bluetooth and sends nothing from them over the
 internet. Their readings are stored like the rest of your data (see "Backups and exports" and
@@ -125,7 +129,8 @@ scheduled on your iPhone. They are off until you turn them on. Forge never regis
 notifications and has no server to send them.
 
 Widgets and the workout Live Activity show your workout, bodyweight and food figures on your Home
-Screen or Lock Screen, if you add them. Anyone who can see your Lock Screen can see what they
+Screen or Lock Screen, if you add them. During a workout with a paired band, the Live Activity also
+shows your current heart rate. Anyone who can see your Lock Screen can see what they
 show.
 
 ## App lock
